@@ -14,6 +14,8 @@ create index if not exists tasks_user_created_idx
 
 alter table public.tasks enable row level security;
 
+grant select, insert, update, delete on public.tasks to authenticated;
+
 drop policy if exists "Users can read their own tasks" on public.tasks;
 drop policy if exists "Users can create their own tasks" on public.tasks;
 drop policy if exists "Users can update their own tasks" on public.tasks;
