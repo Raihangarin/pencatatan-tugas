@@ -21,8 +21,10 @@
 - [x] Menjalankan `npm install` dan `npm run build`.
 - [x] Menguji CRUD tugas mode demo di browser; tugas uji sementara sudah dihapus.
 - [x] Membuat repository publik `Raihangarin/pencatatan-tugas` dan push source ke branch `main`.
-- [ ] Buat/siapkan akun dan proyek Supabase, lalu jalankan `supabase/schema.sql` dan atur environment variables.
+- [x] Masuk ke Supabase melalui GitHub dan membuat organisasi gratis `RuangTugas`.
+- [ ] Buat proyek Supabase gratis; pemilik akun perlu mengisi password database langsung di dashboard.
+- [ ] Jalankan `supabase/schema.sql`, atur environment variables, dan uji koneksi Supabase.
 - [ ] Buat/siapkan akun Vercel dan deploy repository.
 
 ## Catatan
-Source sudah ada di GitHub. Integrasi database dan deployment belum selesai karena akun Supabase dan Vercel belum tersedia. Jangan menaruh secret di repository atau percakapan.
+Source sudah ada di GitHub dan organisasi Supabase sudah dibuat. Proyek database belum dibuat karena password database harus dimasukkan langsung oleh pemilik akun. Akun Vercel juga belum tersedia. Jangan menaruh secret di repository atau percakapan.

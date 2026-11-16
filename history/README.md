@@ -23,5 +23,6 @@ Catat tiap sesi pengerjaan dengan format berikut:
 - Perubahan: membuat aplikasi React + TypeScript, dashboard CRUD tugas, autentikasi Supabase, mode demo lokal, SQL RLS, `AGENTS.md`, `spec.md`, dan `plan.md`.
 - Pemeriksaan: `npm install` berhasil (0 vulnerability); `npm run build` berhasil; uji browser mode demo mencakup tambah, edit, selesai, filter, dan hapus, serta menghapus kembali tugas uji sementara.
 - Perubahan lanjutan: membuat repository publik `https://github.com/Raihangarin/pencatatan-tugas` dan push seluruh source yang tidak diabaikan `.gitignore`.
-- Pemeriksaan GitHub: `git ls-remote` memverifikasi branch `main` di GitHub pada commit `7bf7f88`.
-- Tindak lanjut: buat/siapkan proyek Supabase dan akun Vercel, atur environment variables, jalankan skema, lalu deploy.
+- Pemeriksaan GitHub: `git ls-remote` memverifikasi branch `main` di GitHub, termasuk commit pembaruan skema `7d05c00`.
+- Perubahan Supabase: masuk melalui GitHub, membuat organisasi gratis `RuangTugas`, dan menambahkan GRANT eksplisit untuk role `authenticated` ke skema SQL.
+- Tindak lanjut: pemilik akun perlu memasukkan password database langsung di dashboard untuk membuat proyek; setelah itu atur environment variables, jalankan skema, lalu siapkan Vercel.
