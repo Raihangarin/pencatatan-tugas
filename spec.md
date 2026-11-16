@@ -40,7 +40,7 @@ Skema dan kebijakan RLS ada di `supabase/schema.sql`.
 - React 18, TypeScript, Vite.
 - Supabase Auth dan Postgres.
 - Source code dapat dipush ke GitHub; build produksi menggunakan `npm run build`.
-- Dapat dideploy ke Vercel sebagai proyek Vite. Atur `VITE_SUPABASE_URL` dan `VITE_SUPABASE_ANON_KEY` di environment variables Vercel.
+- Dapat dideploy ke Vercel sebagai proyek Vite. Atur `VITE_SUPABASE_URL` dan `VITE_SUPABASE_PUBLISHABLE_KEY` di environment variables Vercel.
 - Kredensial publik Supabase tidak menggantikan RLS. Jangan menaruh `service_role` key di aplikasi browser.
 
 ## Kriteria penerimaan
