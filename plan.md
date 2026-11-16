@@ -20,8 +20,9 @@
 - [x] Menambahkan template environment dan instruksi GitHub/Vercel.
 - [x] Menjalankan `npm install` dan `npm run build`.
 - [x] Menguji CRUD tugas mode demo di browser; tugas uji sementara sudah dihapus.
-- [ ] Hubungkan kredensial proyek Supabase dan jalankan `supabase/schema.sql`.
-- [ ] Push repository ke GitHub dan deploy ke Vercel.
+- [x] Membuat repository publik `Raihangarin/pencatatan-tugas` dan push source ke branch `main`.
+- [ ] Buat/siapkan akun dan proyek Supabase, lalu jalankan `supabase/schema.sql` dan atur environment variables.
+- [ ] Buat/siapkan akun Vercel dan deploy repository.
 
 ## Catatan
-Tahap kode dan pengujian lokal selesai. Langkah yang belum dicentang memerlukan akses akun/kredensial Supabase, GitHub, dan Vercel. Jangan menaruh secret di repository atau percakapan.
+Source sudah ada di GitHub. Integrasi database dan deployment belum selesai karena akun Supabase dan Vercel belum tersedia. Jangan menaruh secret di repository atau percakapan.
