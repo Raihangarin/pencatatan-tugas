@@ -22,9 +22,12 @@
 - [x] Menguji CRUD tugas mode demo di browser; tugas uji sementara sudah dihapus.
 - [x] Membuat repository publik `Raihangarin/pencatatan-tugas` dan push source ke branch `main`.
 - [x] Masuk ke Supabase melalui GitHub dan membuat organisasi gratis `RuangTugas`.
-- [ ] Buat proyek Supabase gratis; pemilik akun perlu mengisi password database langsung di dashboard.
-- [ ] Jalankan `supabase/schema.sql`, atur environment variables, dan uji koneksi Supabase.
+- [x] Membuat proyek Supabase gratis `RuangTugas`.
+- [x] Menjalankan `supabase/schema.sql`; tabel `public.tasks` berhasil dibuat dengan RLS dan kebijakan per pengguna.
+- [x] Mengatur URL dan publishable key Supabase di `.env` lokal (file tetap diabaikan Git).
+- [x] Memverifikasi endpoint Supabase Auth merespons dengan publishable key.
+- [ ] Uji daftar/masuk pengguna dan CRUD tugas memakai akun aplikasi.
 - [ ] Buat/siapkan akun Vercel dan deploy repository.
 
 ## Catatan
-Source sudah ada di GitHub dan organisasi Supabase sudah dibuat. Proyek database belum dibuat karena password database harus dimasukkan langsung oleh pemilik akun. Akun Vercel juga belum tersedia. Jangan menaruh secret di repository atau percakapan.
+Source sudah ada di GitHub dan proyek Supabase sudah memiliki skema. Konfigurasi Supabase hanya disimpan lokal; jangan menaruh secret di repository atau percakapan. Uji autentikasi/CRUD dengan akun aplikasi dan deployment Vercel masih menjadi tindak lanjut.
