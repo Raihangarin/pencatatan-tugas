@@ -32,3 +32,9 @@ Catat tiap sesi pengerjaan dengan format berikut:
 - Perubahan: membuat proyek Supabase `RuangTugas`, menyimpan URL dan publishable key di `.env` lokal, serta menjalankan `supabase/schema.sql` melalui SQL Editor.
 - Pemeriksaan: SQL Editor mengonfirmasi eksekusi berhasil; tabel `public.tasks` terlihat di Table Editor; endpoint Auth merespons dengan publishable key; `npm run build` berhasil; `.env` diabaikan Git.
 - Tindak lanjut: uji daftar/masuk dan CRUD memakai akun aplikasi, lalu siapkan deployment Vercel.
+
+## 2026-11-16 — Menyiapkan deployment Vercel
+- Tujuan: menghubungkan repository GitHub ke Vercel untuk publikasi aplikasi.
+- Perubahan: membuat akun Vercel melalui GitHub, mengimpor repository `pencatatan-tugas`, dan memasukkan environment variables Supabase untuk Production dan Preview.
+- Pemeriksaan: proyek Vercel berhasil dibuat; deployment belum dijalankan karena verifikasi identitas meminta kode ke email lama yang tidak dapat diakses.
+- Tindak lanjut: pulihkan akses email lama atau minta bantuan pemulihan akun Vercel, lalu lanjutkan verifikasi dan deployment.

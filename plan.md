@@ -27,7 +27,9 @@
 - [x] Mengatur URL dan publishable key Supabase di `.env` lokal (file tetap diabaikan Git).
 - [x] Memverifikasi endpoint Supabase Auth merespons dengan publishable key.
 - [ ] Uji daftar/masuk pengguna dan CRUD tugas memakai akun aplikasi.
-- [ ] Buat/siapkan akun Vercel dan deploy repository.
+- [x] Membuat akun Vercel melalui GitHub dan mengimpor repository `pencatatan-tugas`.
+- [x] Mengatur environment variables Supabase untuk Production dan Preview di Vercel.
+- [ ] Deploy ke Vercel; tertunda karena verifikasi akun masih dikirim ke email lama yang tidak bisa diakses.
 
 ## Catatan
 Source sudah ada di GitHub dan proyek Supabase sudah memiliki skema. Konfigurasi Supabase hanya disimpan lokal; jangan menaruh secret di repository atau percakapan. Uji autentikasi/CRUD dengan akun aplikasi dan deployment Vercel masih menjadi tindak lanjut.
